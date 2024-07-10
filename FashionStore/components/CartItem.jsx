@@ -8,7 +8,7 @@ const CartItem = ({ product, onRemoveFromCart, onUpdateQuantity }) => {
       <Image 
         source={{uri: product.image}} 
         style={styles.image} 
-        defaultSource={require('../assets/shoppingBag.png')}
+        defaultSource={require('../assets/shoppingbag.png')}
       />
       <View style={styles.details}>
         <Text style={styles.name}>{product.title}</Text>
