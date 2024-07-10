@@ -49,7 +49,7 @@ const CartScreen = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.header}>Open Fashion</Text>
-      <Text style={styles.subHeader}>CHECKOUT</Text>
+      <Text style={styles.subHeader}>CheckOut</Text>
       <FlatList
         data={cartItems}
         renderItem={({ item }) => (
