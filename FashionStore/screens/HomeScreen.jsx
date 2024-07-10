@@ -46,7 +46,7 @@ const HomeScreen = ({ navigation }) => {
         <TouchableOpacity onPress={() => navigation.openDrawer()}>
           <Image source={require("../assets/Menu.png")} style={{width:40,height:40}} />
         </TouchableOpacity>
-        <Text style={styles.title}>PRICE MASTERS 🛒</Text>
+        <Text style={styles.title}>FASHION STORE</Text>
         <View style={styles.headerRight}>
           <TouchableOpacity onPress={() => navigation.navigate("Search")}>
           <Text style={{fontSize:24}}> 🔎</Text>
